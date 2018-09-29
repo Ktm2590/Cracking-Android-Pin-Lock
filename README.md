@@ -17,4 +17,4 @@ This will tell you PIN length. Also if the lock type is a passsword it will tell
 
 Then run the script with these files in the same folder and it will crack the password.
 
-Later Android version use 1024 iterations so too slow to run using python script. Better off using hashcat. Or if the password files have gatekeeper in, these are cuurently uncrackable.
+Later Android version use 1024 iterations so too slow to run using python script. Better off using hashcat. Or if the password files have gatekeeper in, these are currently uncrackable.
