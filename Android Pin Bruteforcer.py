@@ -43,7 +43,7 @@ for i in range(10**(codelength)):
        else:
             code = str(i)
        passwordguess = (hashlib.md5(code.encode() + hexsalt).hexdigest())
-       print(passwordguess)
+       #print(passwordguess)
        if passwordguess == passwordhash:
            print("code found: " + code)
            #It will continue to try passwords until it gets to one where the hash matches
